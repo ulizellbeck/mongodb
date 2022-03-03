@@ -7,3 +7,5 @@ services:
   # rockmongo GUI pointed at mongo server with data
     ports:
       - "27017:27017"
+    volumes:
+      - ./testdaten/primer-dataset.json:/primer-dataset.json
